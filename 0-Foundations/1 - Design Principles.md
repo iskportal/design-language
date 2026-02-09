@@ -2,10 +2,6 @@
 
 Independent Society of Knowledge designs through three foundational principles. These principles govern form, behavior, and coherence across all expressions of the system.
 
-These are not aesthetic preferences. They are **structural constraints** derived from physics and information theory. They define what design _is_ within this system — and what it cannot be.
-
----
-
 ## Ontology
 
 ### Least Action Principle
@@ -26,7 +22,7 @@ Design under least action is **subtractive, not additive.** Refinement means rem
 
 The system remains coherent in every frame of reference. A component must function identically whether rendered on a phone or a projector, in light mode or dark mode, at 12pt or 120pt. Identity is not lost under transformation.
 
-This principle governs **invariance** — structural coherence that persists regardless of medium, environment, or perspective. Identity is encoded through **relationships and proportions**, not through surface-level branding artifacts like logos, colors, or stylistic tokens.
+This principle governs **invariance** — structural coherence that persists regardless of medium, environment, or perspective. Identity is encoded through **relationships and proportions**, not just through surface-level branding artifacts like logos, colors, or stylistic tokens.
 
 Design under general covariance is **structurally stable.** It does not depend on specific rendering conditions. It does not fragment across platforms. It does not require reinterpretation in new contexts.
 
@@ -36,7 +32,9 @@ Design under general covariance is **structurally stable.** It does not depend o
 
 **Design must not impose force on content.**
 
-Structure follows the internal logic of content. Design defines form without altering meaning. Presentation remains neutral with respect to interpretation.
+Structure follows the internal logic of content. Design defines form without altering meaning. Presentation remains neutral with respect to interpretation. 
+
+> ***Design tells content how to look, Content tells design how to shape.***
 
 This principle governs **neutrality** — the refusal to manipulate, persuade, or editorialize through design. Visual emphasis must reflect epistemic importance, not aesthetic preference. Hierarchy must encode structure, not opinion.
 
@@ -50,7 +48,7 @@ These principles regulate:
 - How identity persists across perspectives (general covariance → structural invariance)
 - How the system evolves over time (equivalence → no imposed meaning)
 
-**We design as nature evolves: structurally, economically, and without excess.**
+**We design as nature innovates: structurally, economically, and without excess.**
 
 ---
 
@@ -58,7 +56,7 @@ These principles regulate:
 
 This ontology establishes design as an **epistemic instrument** rather than an aesthetic layer.
 
-Design is not decoration, persuasion, or branding. It is a **structural medium for knowledge transmission, validation, and interpretation.** A correct design preserves semantic integrity under transformation and enables understanding without requiring explanation.
+Design is not decoration, persuasion, or mere aesthetic. It is a **structural medium for knowledge transmission, validation, and interpretation.** A correct design preserves semantic integrity under transformation and enables understanding without requiring explanation.
 
 ### What Design Is
 
@@ -94,11 +92,9 @@ Design reveals the **shape of knowledge** — not its packaging.
 
 Design rejects:
 
-- **Spectacle** — motion, decoration, or novelty used to capture attention
 - **Ornament** — elements that exist purely for aesthetic effect
 - **Trend-driven expression** — stylistic choices based on fashion rather than function
 - **Persuasion** — visual manipulation intended to direct interpretation
-- **Branding as identity** — reliance on logos, colors, or stylistic tokens rather than structural coherence
 
 These are treated as **epistemic noise** — interference that obscures structure, burdens cognition, or distorts meaning.
 
@@ -186,7 +182,7 @@ Motion, animation, and visual variation exist solely to **reduce effort, clarify
 
 This principle governs **coherence under transformation.**
 
-Identity must remain invariant across platform, scale, medium, and context — without relying on surface-level branding artifacts such as logos, color, or stylistic tokens.
+Identity must remain invariant across platform, scale, medium, and context.
 
 ### In Components
 
@@ -200,7 +196,7 @@ Meaning must **remain intact under resizing, reformatting, and re-contextualizat
 
 Structural hierarchy must **remain legible at all levels of scale**, from the smallest component to the largest system surface. Proportional relationships must hold across transformations.
 
-**Identity is defined by relationships and structure, not by visual appearance.**
+**Identity is defined not only by visual appearance, but also by relationships and structure.**
 
 ---
 
