@@ -89,7 +89,7 @@ Blocks are arranged along axes within fields. Arrangement follows one of three p
 
 Intervals scale according to semantic distance. Related elements have smaller intervals; unrelated elements have larger intervals.
 
-**Rule:** Interval must be proportionally consistent within a field. If Interval A separates related elements and Interval B separates unrelated elements, then B > A across all instances. Random variation in interval breaks structural encoding.
+**Rule:** Interval must be proportionally consistent within a field. If Interval `A` separates related elements and Interval `B` separates unrelated elements, then `B > A` across all instances. Random variation in interval breaks structural encoding.
 
 **Rule:** Intervals must scale proportionally with content density. High-density fields (data tables, code) require tighter intervals. Low-density fields (prose, narrative) require looser intervals. Absolute spacing values are prohibited; all intervals must be proportional to field scale and content density.
 
@@ -117,7 +117,7 @@ All elements within a field must align to a consistent axial grid. Arbitrary dev
 
 A composition is **valid** if:
 
-1. **It reduces to primitives.** Every element can be classified as Field, Block, Axis, Interval, or Hierarchy. No unclassifiable elements exist.
+1. **It reduces to primitives.** Every element can be classified as Field, Block, Axis, Interval, or Hierarchy. No unclassified elements exist.
 2. **It functions in wireframe.** Structure remains legible when reduced to grayscale boxes and lines. If structure collapses without styling, it is invalid.
 3. **Hierarchy corresponds to meaning.** Visual emphasis matches epistemic importance. No decorative dominance exists.
 4. **Intervals encode relationships.** Spacing is proportional, consistent, and semantically justified.
