@@ -46,7 +46,7 @@ Different content types (body text, quotations, code, annotations, references, m
 
 **Body text** is the default state. It establishes the baseline scale, weight, and rhythm against which all other typographic elements are differentiated.
 
-**Quotations** are structurally set apart through indentation, reduced scale, or increased leading. They must be visually distinct without requiring styling.
+**Quotations** are structurally set apart through indentation, reduced/increased scale, or increased leading. They must be visually distinct without requiring styling.
 
 **Code and technical notation** require monospaced type to preserve character alignment and signal syntactic structure. Monospace is not an aesthetic choice; it is a functional necessity for representing fixed-width symbolic systems.
 
