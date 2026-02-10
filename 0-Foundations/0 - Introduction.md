@@ -8,6 +8,8 @@ We reject institutional gatekeeping, prestige-based validation, and credibility 
 
 Centralized institutions control knowledge production through:
 
+[IMAGE 10: Diagram contrasting centralized vs. decentralized knowledge production structures - showing access barriers, gatekeeping mechanisms, and ISK's open alternative with transparent processes]
+
 - **Access barriers** (paywalls, closed peer review, institutional affiliation requirements)
 - **Credibility signals** (journal prestige, brand recognition, stylistic authority)
 - **Structural opacity** (hidden review processes, editorial discretion, non-transparent funding)
@@ -38,6 +40,8 @@ ISK's design philosophy rejects status signals entirely. Our design encodes:
 If design imposes interpretation, it has failed. If design relies on branding for credibility, it has failed. If design privileges appearance over structure, it has failed.
 
 ## Design as Epistemic Infrastructure
+
+[IMAGE 11: Visual representation showing design as structural medium vs. design as aesthetic layer - comparing how epistemic design encodes relationships versus how decorative design obscures them]
 
 Our design is not a layer applied to knowledge. It is the **structural medium through which knowledge is transmitted.**
 

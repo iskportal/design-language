@@ -8,6 +8,8 @@ Independent Society of Knowledge designs through three foundational principles. 
 
 **Design must minimize cognitive and operational effort between intent and understanding.**
 
+[IMAGE 1: Side-by-side comparison showing a cluttered interface vs. a minimal interface solving the same task, with arrows indicating the cognitive path from intent to understanding - demonstrating how removal of unnecessary elements creates directness]
+
 Complexity is permitted only when it increases clarity, rigor, or structural necessity. Every element, every interaction, every transition must justify its existence through functional contribution. If removal increases clarity or reduces friction, the element is removed.
 
 This principle governs **efficiency** — not as speed, but as directness. The shortest path between question and answer. The clearest encoding of structure. The minimum necessary motion.
@@ -20,6 +22,8 @@ Design under least action is **subtractive, not additive.** Refinement means rem
 
 **Design must preserve identity across contexts, platforms, and scales.**
 
+[IMAGE 2: A single component (e.g., a card or data visualization) shown across multiple contexts - phone, desktop, light mode, dark mode, different scales - demonstrating structural consistency and preserved relationships despite transformation]
+
 The system remains coherent in every frame of reference. A component must function identically whether rendered on a phone or a projector, in light mode or dark mode, at 12pt or 120pt. Identity is not lost under transformation.
 
 This principle governs **invariance** — structural coherence that persists regardless of medium, environment, or perspective. Identity is encoded through **relationships and proportions**, not just through surface-level branding artifacts like logos, colors, or stylistic tokens.
@@ -31,6 +35,8 @@ Design under general covariance is **structurally stable.** It does not depend o
 ### Equivalence Principle
 
 **Design must not impose force on content.**
+
+[IMAGE 3: Two versions of the same content - one where visual hierarchy matches epistemic importance (correct), one where design emphasis distorts meaning through decorative choices (incorrect) - illustrating the principle of neutrality]
 
 Structure follows the internal logic of content. Design defines form without altering meaning. Presentation remains neutral with respect to interpretation. 
 
@@ -82,6 +88,8 @@ Design must respect the **intelligence, attention, and agency** of its users.
 
 Design encodes **structure** rather than surface appearance.
 
+[IMAGE 4: Diagram showing how design makes invisible structures visible - depicting reasoning chains, hierarchical relationships, and dependencies in a knowledge system with clear visual encoding]
+
 - It makes **reasoning** visible (how conclusions follow from premises)
 - It makes **hierarchy** visible (what matters most, what is subordinate)
 - It makes **relationships** visible (what connects, what separates, what depends on what)
@@ -99,6 +107,8 @@ Design rejects:
 These are treated as **epistemic noise** — interference that obscures structure, burdens cognition, or distorts meaning.
 
 ### When Design Fails
+
+[IMAGE 5: Before/after comparison showing a failed design (where styling substitutes for structure) versus a correct design (where structure is self-evident even in wireframe form)]
 
 Design failure occurs when:
 
@@ -170,9 +180,13 @@ Hierarchies must **compress complexity into simpler form.** Depth is hidden unti
 
 Layouts must **eliminate interpretive friction.** Users should not need to decode structure — structure should be self-evident. If a user must pause to understand how elements relate, the layout has failed.
 
+[IMAGE 6: Layout comparison demonstrating interpretive friction - one layout requiring cognitive decoding vs. one with self-evident structural relationships]
+
 ### In Motion
 
 Motion, animation, and visual variation exist solely to **reduce effort, clarify structure, or reveal causality** — never to stimulate or decorate.
+
+[IMAGE 7: Motion/animation examples - showing purposeful motion that clarifies causality or reveals structure vs. decorative motion that distracts]
 
 **If an element does not reduce friction, it is removed.**
 
@@ -195,6 +209,8 @@ Meaning must **remain intact under resizing, reformatting, and re-contextualizat
 ### In Structure
 
 Structural hierarchy must **remain legible at all levels of scale**, from the smallest component to the largest system surface. Proportional relationships must hold across transformations.
+
+[IMAGE 8: Multi-scale visualization showing how proportional relationships and structural hierarchy remain legible from component level to system level - perhaps a zoom-out sequence]
 
 **Identity is defined not only by visual appearance, but also by relationships and structure.**
 

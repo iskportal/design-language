@@ -10,6 +10,8 @@ Design is constructed from a limited set of primitives. All compositions must be
 
 ### Field
 
+[IMAGE 12: Nested fields diagram showing bounded and unbounded fields with coordinate systems and proportional logic - demonstrating reference frames]
+
 The spatial context in which information exists. A field defines boundaries, orientation, and scale. It is the containing structure within which all other elements operate.
 
 A field may be bounded (a card, a panel, a screen) or unbounded (an infinite canvas, a scrollable surface). Fields may contain other fields, establishing nested contexts.
@@ -18,6 +20,8 @@ Fields define **reference frames** — the coordinate systems and proportional l
 
 ### Block
 
+[IMAGE 13: Examples of blocks as atomic units - showing valid blocks with clear edges versus invalid blocks with ambiguous boundaries or bleeding edges]
+
 A bounded unit of meaning. A block is the atomic container of content — it cannot be subdivided without loss of semantic coherence.
 
 Blocks encode **completeness** — they represent the smallest meaningful unit of information. A block may contain text, image, data, or a combination, but it must function as a unified conceptual element.
@@ -25,6 +29,8 @@ Blocks encode **completeness** — they represent the smallest meaningful unit o
 Blocks have edges. Edges define where meaning begins and ends. Ambiguous or bleeding edges indicate structural failure.
 
 ### Axis
+
+[IMAGE 14: Diagram showing primary and secondary axes in a layout, with consistent axial logic versus arbitrary axis shifts that create disorientation]
 
 The directional logic governing flow and alignment. An axis defines the primary reading path, the gravitational pull of alignment, and the ordering of attention.
 
@@ -35,6 +41,8 @@ The directional logic governing flow and alignment. An axis defines the primary 
 Axes must remain consistent within a field. Arbitrary shifts in axial logic introduce cognitive disorientation.
 
 ### Interval
+
+[IMAGE 15: Interval encoding visualization - showing proportional spacing that encodes belonging, distinction, and hierarchy versus random spacing that introduces noise]
 
 The controlled absence between elements. Interval is not "white space" — it is **active structural separation** that encodes relationships.
 
@@ -49,6 +57,8 @@ Intervals must be proportional and consistent. Random or arbitrary spacing intro
 Interval is **not** decoration. It is relational encoding.
 
 ### Hierarchy
+
+[IMAGE 16: Hierarchy encoding examples showing scale, position, weight, and isolation - with valid correspondence between visual and semantic hierarchy versus invalid decorative dominance]
 
 The relational ordering of emphasis. Hierarchy governs what is seen first, what is seen second, and what recedes into secondary awareness.
 
@@ -71,11 +81,15 @@ Primitives do not exist in isolation. They combine according to structural logic
 
 ### Field Nesting
 
+[IMAGE 17: Nested field extraction test - showing a nested field that remains structurally coherent when isolated versus one that collapses (styling artifact)]
+
 Fields may contain other fields, establishing recursive contexts. Nested fields inherit the axial and proportional logic of their parent unless explicitly overridden.
 
 **Rule:** A nested field must remain structurally coherent when extracted from its parent. If a nested field collapses when isolated, it is not a valid field — it is a styling artifact.
 
 ### Block Arrangement
+
+[IMAGE 18: Three arrangement patterns visualized - linear sequence, grid, and radial - each showing correct semantic-visual correspondence]
 
 Blocks are arranged along axes within fields. Arrangement follows one of three patterns:
 
@@ -86,6 +100,8 @@ Blocks are arranged along axes within fields. Arrangement follows one of three p
 **Rule:** Block arrangement must encode semantic relationships. If blocks are visually grouped but semantically unrelated, the arrangement is invalid. If blocks are semantically related but visually separated, the arrangement is invalid.
 
 ### Interval Proportions
+
+[IMAGE 19: Proportional interval system demonstration - showing consistent interval scaling based on semantic distance and content density]
 
 Intervals scale according to semantic distance. Related elements have smaller intervals; unrelated elements have larger intervals.
 
@@ -114,6 +130,9 @@ All elements within a field must align to a consistent axial grid. Arbitrary dev
 ---
 
 ## Validity Constraints
+
+
+[IMAGE 20: Side-by-side comparison of valid vs. invalid compositions - showing the same content in wireframe (valid = structure remains legible) versus styled (invalid = structure collapses without styling)]
 
 A composition is **valid** if:
 

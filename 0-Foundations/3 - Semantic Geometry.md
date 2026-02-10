@@ -14,6 +14,8 @@ If geometry is arbitrary, meaning is obscured. If geometry is decorative, cognit
 
 ### Spatial Priority
 
+[IMAGE 21: Positional encoding diagram showing how top/leading edge, bottom/trailing edge, and center positions encode different semantic priorities - with correct vs. incorrect examples]
+
 Elements positioned at the **top** or **leading edge** (left in LTR languages, right in RTL) signal primary importance. Position encodes entry point — where attention begins.
 
 Elements positioned at the **bottom** or **trailing edge** signal conclusion, summary, or secondary reference.
@@ -23,6 +25,9 @@ Elements positioned **centrally** signal formal symmetry or balanced weight. Cen
 **Rule:** Spatial priority must correspond to epistemic priority. If a secondary element occupies the primary position, the geometry has violated equivalence.
 
 ### Proximity and Grouping
+
+[IMAGE 22: Proximity encoding visualization - demonstrating how interval distance creates semantic groupings, with examples of correct relationship encoding versus false associations]
+
 
 Elements positioned **near each other** signal semantic relationship. Distance encodes belonging or separation.
 
@@ -46,9 +51,12 @@ Primary navigational elements, persistent context, and structural anchors must r
 
 ### Proportional Significance
 
-Scale must be **proportionally consistent** across the system. If Element A is twice as semantically important as Element B, its scale should reflect this proportional relationship.
+[IMAGE 23: Scale ratio consistency demonstration - showing the same semantic hierarchy maintained across different contexts and scales with proportional relationships preserved]
 
-**Rule:** Scale ratios must remain consistent. If headings are 2× body text in one context, they must remain 2× body text in all contexts. Random or inconsistent scaling introduces noise.
+
+Scale must be **proportionally consistent** across the system. If Element `A` is twice as semantically important as Element `B`, its scale should reflect this proportional relationship.
+
+**Rule:** Scale ratios must remain consistent. If headings are `2x` body text in one context, they must remain `2x` body text in all contexts. Random or inconsistent scaling introduces noise.
 
 ### Scalar Boundaries
 
@@ -57,6 +65,8 @@ Elements must remain legible and structurally coherent across all reasonable sca
 **Rule:** Minimum viable scale must be defined for all elements. If an element loses structural integrity below a certain size, it must not be rendered at that size — it must be replaced or restructured.
 
 ### Scalar Hierarchy
+
+[IMAGE 24: Nested scalar hierarchy examples - showing correct parent-child scale relationships versus violations where children dominate parents]
 
 **No element may be visually larger than its semantic parent.** A sub-section heading cannot be larger than its section heading. A footnote cannot dominate the paragraph it annotates.
 
@@ -70,13 +80,15 @@ Elements must remain legible and structurally coherent across all reasonable sca
 
 ### Relational Distance
 
+[IMAGE 25: Proportional spacing system visualization - showing interval ratios (1X, 2X, 3X) applied consistently across semantic distances in a complete layout]
+
 Interval defines **semantic distance.** Related elements have small intervals. Unrelated elements have large intervals.
 
 **Rule:** Interval must be proportional to semantic distance. Elements that share a parent (siblings in the semantic tree) should have consistent intervals. Elements from different parents (cousins) should have larger intervals.
 
 ### Rhythmic Consistency
 
-Intervals must follow **proportional rhythm** across the system. If the standard interval between paragraphs is X, the interval between sections should be proportionally larger (e.g., 2X, 3X) — not arbitrary.
+Intervals must follow **proportional rhythm** across the system. If the standard interval between paragraphs is `X`, the interval between sections should be proportionally larger (e.g., `2X`, `3X`) — not arbitrary.
 
 **Rule:** Intervals must scale according to a defined proportional system. Random spacing breaks structural encoding.
 
@@ -94,6 +106,8 @@ Interval governs **cognitive rhythm** — how quickly attention moves, how much 
 
 ## Alignment Encoding
 
+[IMAGE 26: Grid alignment demonstration - showing elements aligned to consistent grid versus arbitrary misalignment, with semantic relationships made visible through shared alignment]
+
 **Alignment encodes relationship through implied structure.** Elements that share alignment share conceptual belonging.
 
 ### Axial Coherence
@@ -103,6 +117,8 @@ All elements must align to a **consistent grid or baseline.** Arbitrary misalign
 **Rule:** If two elements align, they must share a semantic relationship. If two elements do not align, they must justify their independence structurally — not aesthetically.
 
 ### Edge Relationships
+
+[IMAGE 27: Alignment types comparison - flush-left, centered, flush-right, and justified - each shown in appropriate semantic context]
 
 **Flush-left alignment** signals sequential reading and hierarchical flow. It is the default for continuous text in LTR languages.
 
@@ -127,6 +143,8 @@ Alignment to a proportional grid ensures **structural predictability.** Users bu
 **Sequence encodes narrative, causality, and cognitive flow.** The order in which elements appear determines the order in which they are processed.
 
 ### Reading Paths
+
+[IMAGE 28: Reading path visualization showing unambiguous sequential flow versus ambiguous ordering where users cannot determine what to read next]
 
 Primary content follows the **natural reading direction** of the language (LTR, RTL, vertical). Secondary content and annotations may deviate from this path, but only when their semantic role justifies deviation.
 

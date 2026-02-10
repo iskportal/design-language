@@ -4,9 +4,9 @@ Dynamics defines how design changes across time, interaction, and transformation
 
 Design must evolve without spectacle. Every transition must justify itself through epistemic necessity: does this motion clarify structure, reveal relationship, or reduce interpretive load? If not, it is removed.
 
----
-
 ## Temporal Hierarchy
+
+[IMAGE 29: Motion sequence diagram showing hierarchical animation - primary elements (structural anchors) moving last while secondary elements (content) move first, with causal dependencies illustrated]
 
 Not all elements move at the same rate. Temporal hierarchy governs **what moves first, what follows, and what remains static** during a transition.
 
@@ -14,13 +14,15 @@ Not all elements move at the same rate. Temporal hierarchy governs **what moves 
 
 **Secondary elements** (content, detail, transient states) move first. They signal that transformation is occurring without destabilizing the user's spatial model.
 
-**Causal dependencies** determine sequence. If Element B depends on Element A, A must complete its transition before B begins. Motion must encode logical ordering, not aesthetic preference.
+**Causal dependencies** determine sequence. If Element `B` depends on Element `A`, `A` must complete its transition before `B` begins. Motion must encode logical ordering, not aesthetic preference.
 
 Simultaneous motion is permitted only when elements share equivalent semantic weight and the transition involves no causal dependency. Otherwise, motion must sequence hierarchically.
 
 ---
 
 ## Causal Encoding
+
+[IMAGE 30: Causality visualization showing expansion from point of selection, deletion with surrounding elements filling space, and filter application with visible state transition - contrasted with discontinuous jumps]
 
 Motion must make causality visible. When a user acts, the system's response must structurally demonstrate **why** the change occurred, not merely **that** it occurred.
 
@@ -40,15 +42,21 @@ Transitions must preserve **identity, hierarchy, and orientation** across transf
 
 **Identity preservation:** An element must remain recognizable as _the same element_ throughout its transition. Shape, proportion, and internal structure may transform, but the user must be able to track continuity. If an element cannot be tracked visually, the transition has failed.
 
+[IMAGE 31: Element transformation sequence showing continuous identity tracking - the same element remaining recognizable throughout its transition versus loss of identity/trackability]
+
 **Hierarchical consistency:** Relative importance must remain stable during motion. A primary element must not temporarily appear subordinate to a secondary element due to animation timing or path.
 
 **Spatial coherence:** Users must maintain their sense of location during transitions. If a view changes, the transformation must encode the spatial relationship between old and new states. Fades, dissolves, and cuts obscure spatial relationships and should be avoided except when no spatial relationship exists.
+
+[IMAGE 32: Spatial relationship encoding in transitions - showing transformation that encodes spatial relationship between old and new states versus fades/cuts that obscure relationships]
 
 **Scale invariance:** Transitions must function correctly across device scales, interaction speeds, and accessibility settings. A transition that requires 400ms to be comprehensible is a failed transition. Motion must encode structure clearly even when reduced, slowed, or disabled.
 
 ---
 
 ## Cognitive Continuity
+
+[IMAGE 33: Motion duration and predictability examples - showing structurally inevitable motion paths versus arbitrary/decorative effects, with appropriate durations (150-300ms) indicated]
 
 Motion exists to **reduce interpretive load**, not to add aesthetic interest. Every animation must decrease the effort required to understand state change.
 
